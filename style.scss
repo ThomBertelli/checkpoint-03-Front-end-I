@@ -1,0 +1,34 @@
+.banner{
+    background-image: url('https://blog.frasershospitality.com/wp-content/uploads/2019/11/2000px-Turkish-Bfast.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+header{
+    background-color:white;
+    height: 20px;
+}
+
+.navbar-brand{
+    width: 150px;
+}
+
+.img-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.img-overlay:before{
+    content: ' ';
+    display: block;
+    height: 50%;
+}
