@@ -12,7 +12,6 @@
 header {
   background-color: white;
   height: 20px;
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -30,7 +29,6 @@ header {
   right: 0;
   text-align: center;
 }
-
 .img-overlay P {
   margin: 10px 30px;
   background-color: rgba(255, 255, 255, 0.671);
@@ -39,21 +37,18 @@ header {
   text-align: justify;
   padding: 10px;
 }
-
 .img-overlay button {
   background-color: #d13a14;
   border: none;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-
 .img-overlay button:hover {
   background-color: #f0ad11;
   color: black;
 }
 
 .img-overlay:before {
-  content: ' ';
+  content: " ";
   display: block;
   height: 50%;
 }
@@ -66,10 +61,8 @@ header {
 .button-custom {
   background-color: #d13a14 !important;
   border: none !important;
-  -webkit-transition: 0.5s !important;
   transition: 0.5s !important;
 }
-
 .button-custom:hover {
   background-color: #f0ad11 !important;
   color: black !important;
@@ -79,11 +72,81 @@ header {
   .img-overlay:before {
     height: 30%;
   }
+
   .img-overlay p {
     margin: 0;
   }
+
   .navbar-brand img {
     height: 85px;
   }
 }
+/*
+ ************************************
+ * begin brasileira.html
+ */
+.brasileira #banner {
+  background-image: url("https://paribar.com.br/wp-content/uploads/2021/04/comida-brasileira.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  opacity: 0.6;
+}
+.brasileira .thumbnail {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+}
+.brasileira .hidden {
+  display: none;
+  margin-top: 100px;
+}
+.brasileira #bannerNorte {
+  background-image: url("https://www.saboresajinomoto.com.br/uploads/images/recipes/pato-no-tucupi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  opacity: 0.6;
+}
+.brasileira #bannerNordeste {
+  background-image: url("https://www.saboresajinomoto.com.br/uploads/images/recipes/baiao-de-dois-l.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  opacity: 0.6;
+}
+.brasileira #bannerCentroOeste {
+  background-image: url("https://www.saboresajinomoto.com.br/uploads/images/recipes/galinhada-4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  opacity: 0.6;
+}
+.brasileira #bannerSudeste {
+  background-image: url("https://www.saboresajinomoto.com.br/uploads/images/recipes/feijoada-completa-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  opacity: 0.6;
+}
+.brasileira #bannerSul {
+  background-image: url("https://www.saboresajinomoto.com.br/uploads/images/recipes/arroz-de-carreteiro-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  opacity: 0.6;
+}
+.brasileira #bannerTipicas {
+  background-image: url("https://img.cybercook.com.br/receitas/490/pamonha-de-milho-verde-2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  opacity: 0.6;
+}
+
+/*
+ ************************************
+ * end brasileira.html
+ */
+
 /*# sourceMappingURL=style.css.map */
