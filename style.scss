@@ -2,7 +2,7 @@
     background-image: url('https://blog.frasershospitality.com/wp-content/uploads/2019/11/2000px-Turkish-Bfast.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: calc(100vh - 20px);
+    height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,9 +12,12 @@
 header{
     background-color:white;
     height: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
-.navbar-brand{
+.navbar-brand img{
     width: 150px;
 }
 
@@ -53,6 +56,33 @@ header{
 }
 
 .card-custom{
-    margin: 20px 0px
+    margin: 20px 0px;
+    height: 550px;
+    
 }
 
+.button-custom{
+    background-color: rgb(209, 58, 20) !important;
+    border:none !important;
+    transition: 0.5s !important;
+    &:hover{
+            background-color: rgb(240, 173, 17)!important;
+            color: black!important;
+        }
+}
+
+@media (max-width: 400px) {
+    .img-overlay:before{
+        
+        height: 30%;
+    }
+    
+    .img-overlay p{
+        
+        margin: 0;      
+    }
+    .navbar-brand img{
+        height: 85px;
+    }
+    
+}
