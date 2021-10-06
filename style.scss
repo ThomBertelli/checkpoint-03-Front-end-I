@@ -204,6 +204,21 @@ header{
     }
     #banner {
         @include comumBanner($url: 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F2.bp.blogspot.com%2F-vKdCIu6Ffbo%2FUZ2KEY8VALI%2FAAAAAAAAAUQ%2FgEpzxWFSTy8%2Fs1600%2Fcomida%2Bjaponesa.jpg&f=1&nofb=1');
+        margin-top: 100px;
+    }
+    button {
+        @include botaoComum();
+        padding: 10px;
+        border-radius: 15px;
+        color: white;
+    }
+    iframe {
+        width: 64vh;
+        height: 36vh;
+    }
+    .conteudo {
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
     .thumbnail {
         width: 200px;
@@ -214,24 +229,8 @@ header{
         display: none;
         margin-top: 100px;
     }
-    #bannerEscargot {
-        @include comumBanner($url: '');
-    }
-    #bannerVinhos {
-        @include comumBanner($url: '');
-    }
-    #bannerRatatouille {
-        @include comumBanner($url: '');
-    }
-    #bannerQueijos {
-        @include comumBanner($url: '');
-    }
-    #bannerMacarons {
-        @include comumBanner($url: '');
-    }
-    #bannerPato{
-        @include comumBanner($url: '');
-    }
+
+
 }
 
  /************************************

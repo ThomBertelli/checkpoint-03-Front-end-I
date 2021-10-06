@@ -235,11 +235,32 @@ header {
   background-size: cover;
   margin-top: 100px;
   opacity: 0.8;
+  margin-top: 100px;
 }
 .japonesa #banner p {
   background-color: #0000007a;
   border-radius: 15px;
   padding: 5px 10px 5px 10px;
+}
+.japonesa button {
+  background-color: #d13a14;
+  border: none;
+  transition: 0.5s;
+  padding: 10px;
+  border-radius: 15px;
+  color: white;
+}
+.japonesa button:hover {
+  background-color: #f0ad11;
+  color: black;
+}
+.japonesa iframe {
+  width: 64vh;
+  height: 36vh;
+}
+.japonesa .conteudo {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .japonesa .thumbnail {
   width: 200px;
@@ -249,78 +270,6 @@ header {
 .japonesa .hidden {
   display: none;
   margin-top: 100px;
-}
-.japonesa #bannerEscargot {
-  background-image: url("");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 100px;
-  opacity: 0.8;
-}
-.japonesa #bannerEscargot p {
-  background-color: #0000007a;
-  border-radius: 15px;
-  padding: 5px 10px 5px 10px;
-}
-.japonesa #bannerVinhos {
-  background-image: url("");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 100px;
-  opacity: 0.8;
-}
-.japonesa #bannerVinhos p {
-  background-color: #0000007a;
-  border-radius: 15px;
-  padding: 5px 10px 5px 10px;
-}
-.japonesa #bannerRatatouille {
-  background-image: url("");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 100px;
-  opacity: 0.8;
-}
-.japonesa #bannerRatatouille p {
-  background-color: #0000007a;
-  border-radius: 15px;
-  padding: 5px 10px 5px 10px;
-}
-.japonesa #bannerQueijos {
-  background-image: url("");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 100px;
-  opacity: 0.8;
-}
-.japonesa #bannerQueijos p {
-  background-color: #0000007a;
-  border-radius: 15px;
-  padding: 5px 10px 5px 10px;
-}
-.japonesa #bannerMacarons {
-  background-image: url("");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 100px;
-  opacity: 0.8;
-}
-.japonesa #bannerMacarons p {
-  background-color: #0000007a;
-  border-radius: 15px;
-  padding: 5px 10px 5px 10px;
-}
-.japonesa #bannerPato {
-  background-image: url("");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 100px;
-  opacity: 0.8;
-}
-.japonesa #bannerPato p {
-  background-color: #0000007a;
-  border-radius: 15px;
-  padding: 5px 10px 5px 10px;
 }
 
 /************************************
