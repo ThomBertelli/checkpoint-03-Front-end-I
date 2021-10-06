@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Login</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html">
+                    <img src="https://logopond.com/logos/bb5e54284cec40cf6fdad1a90b845bf0.png">
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Culinárias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="../index.html" aria-disabled="true">Receitas Tradicionais</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#contato" aria-disabled="true">Contato</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="https://www.tudogostoso.com.br/" target="_blank"aria-disabled="true">Mais Receitas</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+      <form>
+        <div class="container-fluid p-5">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="col-md-6 offset-md-3 pb-5">Login</h1>
+              <div class="form-group">
+                <div class="col-md-6 offset-md-3 pb-4">
+                  <label for="exampleInputEmail1">Endereço de email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="nome@exemplo.com">
+                  <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-md-6 offset-md-3">
+                  <label for="exampleInputPassword1">Senha</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+              </div>  
+              <div class="form-group form-check">
+                <div class="col-md-6 offset-md-3 pb-4">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Lembrar</label>
+                </div>          
+              </div>
+              <div class="col-md-6 offset-md-3">
+                <button id="enviar" type="submit" class="btn btn-primary">Enviar</button>
+              </div>          
+            </div>
+          </div>
+        </div>      
+      </form>
+    </main>
+
+<footer>
+  <div class="footer" id="contato">
+    <h5>Sabores do Mundo</h5>
+    <p> Todos os direitos reservados</p>
+    <p>contato@contato.com.br</p>
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
