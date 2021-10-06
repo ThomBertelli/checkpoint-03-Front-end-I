@@ -38,6 +38,7 @@ header {
   background-color: rgba(255, 255, 255, 0.671);
   font-size: 18px;
   border-radius: 12px;
+  font-weight: 600;
   text-align: justify;
   padding: 10px;
 }
@@ -109,6 +110,10 @@ header {
     height: 300px;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 18c42b7a4ef7f6bb0ace7a67036586f8ec1b2bf0
 /*
  ************************************
  * begin brasileira.html
@@ -190,5 +195,84 @@ header {
  ************************************
  * end brasileira.html
  */
+<<<<<<< HEAD
 
+=======
+ 
+/*
+ ************************************
+ * begin francesa.html
+ */
+.francesa #banner {
+  background-image: url("./images/Cheese.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+.francesa #banner div{
+  color: #ecf011;
+  background-color: rgba(0, 0, 0, 0.164);
+  padding: 5px;
+  border-radius: 12px;
+}
+
+.francesa .thumbnail {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.francesa .hidden {
+  display: none;
+  margin-top: 100px;
+}
+.francesa #bannerEscargot {
+  background-image: url("./images/Escargot.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+}
+.francesa #bannerVinhos {
+  background-image: url("./images/VinhosFranceses.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+}
+.francesa #bannerRatatouille {
+  background-image: url("./images/Ratatouille.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+}
+.francesa #bannerQueijos {
+  background-image: url("./images/Queijos.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  
+}
+.francesa #bannerMacarons {
+  background-image: url("./images/Macarons.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  
+}
+.francesa #bannerPato {
+  background-image: url("./images/Pato.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  
+}
+
+/*
+ ************************************
+ * end francesa.html
+ */
+
+/*# sourceMappingURL=style.css.map */
+>>>>>>> 18c42b7a4ef7f6bb0ace7a67036586f8ec1b2bf0
 /*# sourceMappingURL=style.css.map */
