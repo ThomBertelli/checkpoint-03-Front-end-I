@@ -23,6 +23,17 @@ header{
     width: 150px;
 }
 
+@mixin botaoComum ($cor1: rgb(209, 58, 20), $cor2: rgb(240, 173, 17)) {
+	  background-color: $cor1;
+    border:none;
+    transition: 0.5s;
+    &:hover{
+        background-color: $cor2;
+        color: black;
+    }
+
+}
+
 .img-overlay{
     position: absolute;
     top: 0;
@@ -41,13 +52,7 @@ header{
     }
 
     button{
-        background-color: rgb(209, 58, 20);
-        border:none;
-        transition: 0.5s;
-        &:hover{
-            background-color: rgb(240, 173, 17);
-            color: black;
-        }
+        @include botaoComum();
     }
 }
 
@@ -120,12 +125,12 @@ header{
 	      background-image: url($url);
         background-repeat: no-repeat;
         background-size: cover;
-        margin-top: 100px;
         opacity: 0.6;
 
     }
     #banner {
         @include comumBanner($url: 'https://paribar.com.br/wp-content/uploads/2021/04/comida-brasileira.jpg');
+        margin-top: 100px;
     }
     .thumbnail {
         width: 200px;
@@ -153,6 +158,20 @@ header{
     }
     #bannerTipicas{
         @include comumBanner($url: 'https://img.cybercook.com.br/receitas/490/pamonha-de-milho-verde-2.jpeg');
+    }
+    button {
+        @include botaoComum();
+        padding: 10px;
+        border-radius: 15px;
+        color: white;
+    }
+    iframe {
+        width: 64vh;
+        height: 36vh;
+    }
+    .conteudo {
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
 }
 /*
