@@ -4,51 +4,529 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <title>Culinária Japonesa</title>
+    <title>Culinária Brasileira</title>
+    <script type="text/javascript">
+        function mostraConteudo( conteudo ) {
+            element = document.querySelector('#pag-1');
+            element.style.display ='none';
+            conteudo = document.querySelector( conteudo );
+            conteudo.style.display = 'block';
+        }
+        function voltar( conteudo ) {
+            conteudo = document.querySelector( conteudo );
+            conteudo.style.display = 'none';
+            element = document.querySelector('#pag-1');
+            element.style.display ='block';
+        }
+    </script>
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="./../index.html">
-                <img src="https://logopond.com/logos/bb5e54284cec40cf6fdad1a90b845bf0.png">
-            </a>
-            
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./../index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link " href="#" aria-disabled="true">Disabled</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="#" aria-disabled="true">Disabled</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="#" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              
-              <button class="btn btn-outline-danger" type="submit">Login</button>
-            </form>
-          </div>
-        </div>
-    </nav>
-  </header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html">
+                    <img src="https://logopond.com/logos/bb5e54284cec40cf6fdad1a90b845bf0.png">
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="../index.html#culinarias">Culinárias</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link " href="../index.html#carouselExampleCaptions" aria-disabled="true">Receitas Tradicionais</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link " href="../index.html#contato" aria-disabled="true">Contato</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="https://www.tudogostoso.com.br/" target="_blank"aria-disabled="true">Mais Receitas</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <button class="btn btn-outline-danger" type="submit">Login</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+    </header>
 
-  
-    
+  <main class="japonesa">
+        <div class="container-fluid" id="pag-1">
+            <div class="p-4 p-md-5 mb-4 text-white rounded" id="banner">
+                <div class="col-md-6 px-0 justify-content-center ">
+                    <h1 class="display-4 fst-italic">Comidas japonesas tradicionais</h1>
+                    <p class="lead my-3">O Japão é conhecido por todo o mundo como um dos melhores lugares do mundo para se visitar por causa da culinária.</p>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary">Região Norte</strong>
+                        <h3 class="mb-0">Caldeirada de Tucunaré</h3>
+                        <div class="mb-1 text-muted">Out 05</div>
+                        <p class="card-text mb-auto">Um prato especial para prestigiar com os amigos. Faça você também essa deliciosa, simples e fácil Receita de Caldeirada de Tucunaré.</p>
+                        <button onclick="mostraConteudo( '#regiaoNorte' )">Saiba Mais!</button>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                        <img class="thumbnail" alt="Caldeirada de Tucunaré" src="https://www.saboresajinomoto.com.br/uploads/images/recipes/pato-no-tucupi.jpg"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-success">Região Nordeste</strong>
+                    <h3 class="mb-0">Baião de Dois</h3>
+                    <div class="mb-1 text-muted">Out 05</div>
+                    <p class="mb-auto">Este prato formidável nasceu da necessidade de enfrentar longos períodos de seca, com ingredientes mais duráveis.</p>
+                    <button onclick="mostraConteudo( '#regiaoNordeste' )">Saiba Mais!</button>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                    <img class="thumbnail" alt="Baião de Dois" src="https://www.saboresajinomoto.com.br/uploads/images/recipes/baiao-de-dois-l.jpg"/>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-secondary">Região Centro-Oeste</strong>
+                    <h3 class="mb-0">Galinhada</h3>
+                    <div class="mb-1 text-muted">Out 05</div>
+                    <p class="mb-auto">Conhecida como Arroz com Galinha em outras localidades, é um verdadeiro hit da região Centro-Oeste</p>
+                    <button onclick="mostraConteudo( '#regiaoCentroOeste' )">Saiba Mais!</button>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                    <img class="thumbnail" alt="Galinhada" src="https://www.saboresajinomoto.com.br/uploads/images/recipes/galinhada-4.jpg"/>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-success">Região Sudeste</strong>
+                    <h3 class="mb-0">Feijoada Completa</h3>
+                    <div class="mb-1 text-muted">Out 05</div>
+                    <p class="mb-auto">A mistura de sabores entre o feijão e a carne suína, além dos temperos que vão nesta receita, fazem com que ela seja verdadeiramente irresistível</p>
+                    <button onclick="mostraConteudo( '#regiaoSudeste' )">Saiba Mais!</button>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                    <img class="thumbnail" alt="Feijoada Completa" src="https://www.saboresajinomoto.com.br/uploads/images/recipes/feijoada-completa-1.jpg"/>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-warning">Região Sul</strong>
+                    <h3 class="mb-0">Arroz de Carreteiro</h3>
+                    <div class="mb-1 text-muted">Out 05</div>
+                    <p class="mb-auto">Tem sua origem entre os mercadores ambulantes que viajavam pelo Brasil puxando as suas carretas, popularmente conhecidos como carreteiros.</p>
+                    <button onclick="mostraConteudo( '#regiaoSul' )">Saiba Mais!</button>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                    <img class="thumbnail" alt="Arroz de Carreteiro" src="https://www.saboresajinomoto.com.br/uploads/images/recipes/arroz-de-carreteiro-1.jpg"/>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-info">Comidas Típicas</strong>
+                    <h3 class="mb-0">Pamonha de milho verde</h3>
+                    <div class="mb-1 text-muted">Out 05</div>
+                    <p class="mb-auto">Um clássico da comida típica brasileira. Animando as festas juninas em todo o país.</p>
+                    <button onclick="mostraConteudo( '#tipicas' )">Saiba Mais!</button>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                    <img class="thumbnail" alt="Pamonha de milho verde" src="https://img.cybercook.com.br/receitas/490/pamonha-de-milho-verde-2.jpeg"/>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid py-4 hidden" id="regiaoNorte">
+            <div class="p-4 p-md-5 mb-4 text-white rounded" id="bannerNorte">
+                <div class="col-md-6 px-0 justify-content-center ">
+                    <h1 class="display-5 fw-bold">Caldeirada de Tucunaré</h1>
+                    <p class="lead my-3 fs-4">Um prato especial para prestigiar com os amigos. Faça você também essa deliciosa, simples e fácil Receita de Caldeirada de Tucunaré.</p>
+                </div>
+            </div>
+            <div class="d-flex flex-wrap justify-content-center">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/k67HnaO4Oec" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="row align-items-md-stretch conteudo">
+                <div class="col-md-6">
+                    <div class="h-100 p-5 text-white bg-dark rounded-3">
+                        <h2>Ingredientes</h2>
+                        <ul>
+                            <li>Tucunaré cortado em postas</li>
+                            <li>2 limões</li>
+                            <li>1/2 litro de tucupi</li>
+                            <li>1 maço de jambu</li>
+                            <li>2 tomates</li>
+                            <li>2 cebolas</li>
+                            <li>2 pimentões</li>
+                            <li>2 dentes de alho</li>
+                            <li>1 maço de coentro e cheiro verde</li>
+                            <li>farinha de mandioca</li>
+                            <li>3 ovos</li>
+                            <li>2 batatas</li>
+                            <li>colorau e azeite a gosto</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="h-100 p-5 bg-light border rounded-3">
+                        <h2>Modo de Preparo</h2>
+                        <p>Lave e escame bem os peixes e corte-os em postas.</p>
+                        <p>Deixe de molho na vinha-d’alhos feita com suco de limão, sal, pimenta e salsinha.</p>
+                        <p>Numa panela grande coloque bastante água e nela coloque para cozinhar as batatas, as cebolas, o repolho, os pimentões, os ovos e os tomates. Retire os legumes à medida que forem amolecendo.</p>
+                        <p>Depois de cozidos todos os legumes, coloque no mesmo caldo as postas de peixe para cozinhar.</p>
+                        <p>Acrescente os ramos de coentro e cheiro verde.</p>
+                        <p>Na hora de servir, retire as postas de peixe para uma travessa grande e ao seu redor arrume os legumes cozidos: repolho cortado em 4 partes, ovos cortados ao meio e os demais legumes inteiros.</p>
+                    </div>
+                </div>
+            </div>
+            <button onclick="voltar('#regiaoNorte')">Voltar</button>
+        </div>
+        <div class="container-fluid py-4 hidden" id="regiaoNordeste">
+            <div class="p-4 p-md-5 mb-4 text-white rounded" id="bannerNordeste">
+                <div class="col-md-6 px-0 justify-content-center ">
+                    <h1 class="display-4 fst-italic">Baião de Dois</h1>
+                    <p class="lead my-3">Este prato formidável nasceu da necessidade de enfrentar longos períodos de seca, com ingredientes mais duráveis.</p>
+                </div>
+            </div>
+            <div class="d-flex flex-wrap justify-content-center">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zIBn-rH7xXQ" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="row align-items-md-stretch conteudo">
+                <div class="col-md-6">
+                    <div class="h-100 p-5 text-white bg-dark rounded-3">
+                        <h2>Ingredientes</h2>
+                        <ul>
+                            <li>2 colheres de sopa ou 25 gramas de banha de porco</li>
+                            <li>1 xícara de chá ou 150 gramas de bacon cortado em palitos</li>
+                            <li>2 xícaras de chá ou 300 gramas de linguiça calabresa cortada em um quarto de lua</li>
+                            <li>2 colheres de sopa ou 40 gramas de alho picado</li>
+                            <li>1 e um terço de xícara de chá ou 200 gramas de cebola picadinha</li>
+                            <li>Um terço de xícara de chá ou 50 gramas de pimentão verde picadinho</li>
+                            <li>1 colher de chá ou 5 gramas de pimenta de cheiro picadinha</li>
+                            <li>1 colher de sopa de talo de coentro picadinho</li>
+                            <li>1 xícara de chá ou 100 gramas de carne-seca cozida e desfiada</li>
+                            <li>250 gramas de feijão-verde</li>
+                            <li>1 folha de louro</li>
+                            <li>1 litro e 200 mililitros ou 5 xícaras da água de cozimento da carne-seca</li>
+                            <li>Meia colher de sopa de manteiga de garrafa</li>
+                            <li>1 e meia xícara de chá ou 250 gramas de carne-seca cozida e cortada em cubos médios</li>
+                            <li>Meia colher de sopa de manteiga de garrafa</li>
+                            <li>1 e meia xícara de chá ou 200 gramas de queijo coalho cortado em cubos médios</li>
+                            <li>2 xícaras de chá ou 300 gramas de tomate sem semente cortado em cubos pequenos</li>
+                            <li>800 gramas de arroz cozido, cerca 350 gramas de arroz cru</li>
+                            <li>Folhas de coentro picado a gosto</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="h-100 p-5 bg-light border rounded-3">
+                        <h2>Modo de Preparo</h2>
+                        <p>
+                            Numa panela grande em fogo médio, coloque 2 colheres de sopa de banha de porco, 1 xícara chá de bacon cortado em palitos, 2 xícaras de chá de linguiça calabresa cortada em um quarto de lua e refogue até dourar - cerca de 5 minutos.
+                        </p>
+                        <p>
+                            Adicione 2 colheres de sopa de alho picado, 1 e um terço de xícara de chá de cebola picadinha, um terço de xícara de chá de pimentão verde picadinho, 1 colher de chá de pimenta de cheiro picadinha, 1 colher de sopa de talo de coentro picadinho e refogue até começar a dourar por mais ou menos 5 minutos.
+                        </p>
+                        <p>
+                            Junte 1 xícara de chá de carne-seca cozida e desfiada, 250 gramas de feijão-verde, 1 folha de louro, 1 litro e 200 mililitros da água de cozimento da carne-seca, abaixe o fogo, tampe a panela e cozinhe por mais ou menos 25 minutos até que o feijão esteja cozido, mas ainda ‘al dente’.
+                        </p>
+                        <p>
+                            Derreta meia colher de sopa de manteiga de garrafa numa frigideira antiaderente em fogo médio e doure 1 e meia xícara de chá de carne-seca cozida e cortada em cubos médios. Reserve.
+                        </p>
+                        <p>
+                            Na mesma frigideira, derreta meia colher de sopa de manteiga de garrafa e doure 1 e meia xícara de chá de queijo coalho cortado em cubos médios. Reserve o queijo coalho junto com a carne-seca dourada.
+                        </p>
+                        <p>
+                            Quando o feijão estiver cozido, destampe a panela, junte 2 xícaras de chá de tomate sem semente cortado em cubos pequenos, 800 gramas de arroz cozido, a carne-seca, o queijo coalho dourado e mexa até a água secar. Apague o fogo, adicione folhas de coentro picado a gosto e sirva em seguida.
+                        </p>
+                        <p>
+                            Dica: para substituir o feijão-verde por feijão-fradinho, cozinhe por 45 minutos com 6 xícaras de chá de água do cozimento da carne-seca (um litro e meio).
+                        </p>
+                        <h2>Para cozinhar a carne-seca</h2>
+                        <p>
+                            Em uma panela de pressão em fogo médio, coloque 2 litros de água e 800 gramas de carne-seca dessalgada e cortada em bifes, tampe a panela e assim que chiar, abaixe o fogo e conte 20 minutos.
+                        </p>
+                        <p>
+                            Depois deste tempo desligue o fogo, retire a pressão e destampe a panela.
+                        </p>
+                        <p>
+                            Retire a carne-seca e desfie 1 xícara de chá. O restante da carne-seca, 1 e meia xícara de chá, corte em cubos médios. Reserve o caldo do cozimento, cerca de 1 litro e meio.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button onclick="voltar('#regiaoNordeste')">Voltar</button>
+        </div>
+        <div class="container-fluid py-4 hidden" id="regiaoCentroOeste">
+            <div class="p-4 p-md-5 mb-4 text-white rounded" id="bannerCentroOeste">
+                <div class="col-md-6 px-0 justify-content-center ">
+                    <h1 class="display-4 fst-italic">Galinhada</h1>
+                    <p class="lead my-3">Conhecida como Arroz com Galinha em outras localidades, é um verdadeiro hit da região Centro-Oeste</p>
+                </div>
+            </div>
+            <div class="d-flex flex-wrap justify-content-center">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MT6MMS-82ic" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="row align-items-md-stretch conteudo">
+                <div class="col-md-6">
+                    <div class="h-100 p-5 text-white bg-dark rounded-3">
+                        <h2>Ingredientes</h2>
+                        <ul>
+                            <li>10 sobrecoxas de frango</li>
+                            <li>1,6 kg de cebola (fatiada fina)</li>
+                            <li>150 g de alho (picado)</li>
+                            <li>1 colher (sopa) de tempero pronto (caldo de galinha)</li>
+                            <li>Pimenta</li>
+                            <li>Sal para acertar</li>
+                            <li>1 lata de milho</li>
+                            <li>50 g de manteiga ou margarina</li>
+                            <li>4 xícaras de arroz lavado e escorrido</li>
+                            <li>Panela de fundo grosso parra não grudar (de preferência de ferro)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="h-100 p-5 bg-light border rounded-3">
+                        <h2>Modo de Preparo</h2>
+                        <p>
+                            Frite a cebola na própria água até ela ficar no tom marrom escuro sem queimar. É necessário ter ao lado um pouco de água para acrescentar quando começar a grudar na panela.
+                        </p>
+                        <p>
+                            Após fritar a cebola, que vai reduzir e muito a quantidade, coloque a manteiga, frite o alho e tire do fogo.
+                        </p>
+                        <p>
+                            Coloque o alho e a cebola fritos no centro da panela, deite as sobrecoxas ao lado e, sobre a cebola e o alho, coloque o caldo de galinha, o milho, a pimenta e cozinhe em fogo mais baixo possível por mais ou menos 1 hora ou até perceber que o frango está cozido. Não se deve mexer nesta hora. Se tiver necessidade de água, coloque sempre aos poucos.
+                        </p>
+                        <p>
+                            Quando o frango estiver cozido, acrescente o arroz e complete com água.
+                        </p>
+                        <p>
+                            Com o arroz cozido, estará pronta a galinhada. Sirva com salada verde.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button onclick="voltar('#regiaoCentroOeste')">Voltar</button>
+        </div>
+        <div class="container-fluid py-4 hidden" id="regiaoSudeste">
+            <div class="p-4 p-md-5 mb-4 text-white rounded" id="bannerSudeste">
+                <div class="col-md-6 px-0 justify-content-center ">
+                    <h1 class="display-4 fst-italic">Feijoada Completa</h1>
+                    <p class="lead my-3">A mistura de sabores entre o feijão e a carne suína, além dos temperos que vão nesta receita, fazem com que ela seja verdadeiramente irresistível</p>
+                </div>
+            </div>
+            <div class="d-flex flex-wrap justify-content-center">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/uWwcGH-s2Rk" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="row align-items-md-stretch conteudo">
+                <div class="col-md-6">
+                    <div class="h-100 p-5 text-white bg-dark rounded-3">
+                        <h2>Ingredientes</h2>
+                        <ul>
+                            <li>600g de feijão-preto</li>
+                            <li>200g de costelinha de porco salgada</li>
+                            <li>200g de carne-seca em cubos</li>
+                            <li>100g de orelha de porco</li>
+                            <li>100g de rabo de porco</li>
+                            <li>100g de pé de porco</li>
+                            <li>100g de lombo de porco salgado em cubos</li>
+                            <li>Suco de 1 limão</li>
+                            <li>2 folhas de louro</li>
+                            <li>Sal e pimenta-do-reino a gosto</li>
+                            <li>1 cebola com 5 cravos-da-índia espetados</li>
+                            <li>8 xícaras (chá) de água</li>
+                            <li>1/4 de xícara (chá) de cachaça</li>
+                            <li>2 laranjas</li>
+                            <li>300g de linguiça calabresa, paio e portuguesa em fatias</li>
+                            <li>1 cebola em cubos</li>
+                            <li>5 dentes de alho picados</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="h-100 p-5 bg-light border rounded-3">
+                        <h2>Modo de Preparo</h2>
+                        <p>
+                            Deixe o feijão de molho em água por 6 horas. Deixe a costelinha, a carne-seca, a orelha, o rabo, o pé e o lombo de molho em água por 24 horas na geladeira, trocando a água por 4 vezes. Escorra, lave com o suco de limão e coloque em uma panela com água. Leve ao fogo médio, deixe levantar fervura, escorra e repita o processo para retirar o excesso de gordura.
+                        </p>
+                        <p>
+                            Coloque as carnes em uma panela, adicione o feijão com a água do molho e complete com mais água. Leve ao fogo baixo. Acrescente o louro, sal, pimenta, a cebola espetada com os cravos, a cachaça e as duas laranjas inteiras, com casca furada com uma faca afiada. Deixe levantar fervura e cozinhe por 50 minutos, retirando a espuma que se forma na superfície, com uma colher. Coloque a linguiça na metade do cozimento. Teste a maciez das carnes com um garfo e retire conforme estiverem prontas.
+
+                        </p>
+                        <p>
+                            Corte os pedaços de carne em tamanhos de 3cm. Quando o feijão e as carnes estiverem prontas, volte à panela todos os pedaços. Aqueça uma frigideira com o óleo, em fogo médio, doure a cebola e o alho por 5 minutos e misture na panela. Retire a cebola espetada e as laranjas. Deixe levantar fervura e sirva, se desejar, acompanhada de arroz branco e couve refogada.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button onclick="voltar('#regiaoSudeste')">Voltar</button>
+        </div>
+        <div class="container-fluid py-4 hidden" id="regiaoSul">
+            <div class="p-4 p-md-5 mb-4 text-white rounded" id="bannerSul">
+                <div class="col-md-6 px-0 justify-content-center ">
+                    <h1 class="display-4 fst-italic">Arroz de Carreteiro</h1>
+                    <p class="lead my-3">Tem sua origem entre os mercadores ambulantes que viajavam pelo Brasil puxando as suas carretas, popularmente conhecidos como carreteiros.</p>
+                </div>
+            </div>
+            <div class="d-flex flex-wrap justify-content-center">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/F6FeqV0UCFc" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="row align-items-md-stretch conteudo">
+                <div class="col-md-6">
+                    <div class="h-100 p-5 text-white bg-dark rounded-3">
+                        <h2>Ingredientes</h2>
+                        <ul>
+                            <li>600 g de carne-seca dessalgada em cubos pequenos</li>
+                            <li>150 g de bacon cortado em cubos de 2 cm</li>
+                            <li>2 colheres (sopa) de azeite de oliva</li>
+                            <li>1 xícara (chá) de cebola picada</li>
+                            <li>2 dentes de alho picadinhos</li>
+                            <li>2 xícaras (chá) de arroz lavado e escorrido</li>
+                            <li>5 xícaras (chá) de água fervente</li>
+                            <li>3 tomates sem pele e sementes picados</li>
+                            <li>1/2 xícara (chá) de salsinha picada</li>
+                            <li>Sal e pimenta-do-reino a gosto</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="h-100 p-5 bg-light border rounded-3">
+                        <h2>Modo de Preparo</h2>
+                        <p>
+                            Leve ao fogo o azeite e o bacon em uma panela de ferro. Quando o bacon começar a dourar, acrescente a carne-seca e frite por 10 minutos ou até ficar dourada.
+                        </p>
+                        <p>
+                            Adicione a cebola e o alho e refogue em fogo baixo por 3 minutos. Tempere com pimenta-do-reino. Junte 1 xícara (chá) de água quente e cozinhe por ½ hora com a panela tampada (se necessário, acrescente mais água).
+                        </p>
+                        <p>
+                            Adicione o arroz à panela, refogue por 5 minutos e junte o tomate. Refogue mais um pouco e adicione a água restante. Ajuste o sal.
+                        </p>
+                        <p>
+                            Quando ferver novamente, tampe a panela, reduza o fogo ao mínimo e cozinhe por cerca de 20 minutos.
+                        </p>
+                        <p>
+                            Desligue o fogo e deixe em repouso por 5 minutos. Agregue a salsinha e sirva imediatamente.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button onclick="voltar('#regiaoSul')">Voltar</button>
+        </div>
+        <div class="container-fluid py-4 hidden" id="tipicas">
+            <div class="p-4 p-md-5 mb-4 text-white rounded" id="bannerTipicas">
+                <div class="col-md-6 px-0 justify-content-center ">
+                    <h1 class="display-4 fst-italic">Pamonha de milho verde</h1>
+                    <p class="lead my-3">Um clássico da comida típica brasileira. Animando as festas juninas em todo o país.</p>
+                </div>
+            </div>
+             <div class="d-flex flex-wrap justify-content-center">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/56c5g_DsO88" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="row align-items-md-stretch conteudo">
+                <div class="col-md-6">
+                    <div class="h-100 p-5 text-white bg-dark rounded-3">
+                        <h2>Ingredientes</h2>
+                        <ul>
+                            <li>6 espigas de milho bem amarelas</li>
+                            <li>1 xícara de chá de açúcar</li>
+                            <li>Meia xícara de chá de coco ralado seco desidratado</li>
+                            <li>Meia xícara de café de água</li>
+                            <li>Palha do milho para embalar: ao invés de embalar na palha do milho, pode-se usar sacos térmicos próprios para cozimento, amarrando com elástico</li>
+                            <li>Barbante ou elástico para amarrar</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="h-100 p-5 bg-light border rounded-3">
+                        <h2>Modo de Preparo</h2>
+                        <p>
+                            Descasque as espigas de milho, corte as pontinhas das espigas e retire todos os cabelinhos do milho. Reserve.
+                        </p>
+                        <p>
+                            Em uma panela ferva água para cozinhar a palha do milho.
+                        </p>
+                        <p>
+                            Cozinhe a palha por aproximadamente 15 minutos.
+                        </p>
+                        <p>
+                            Escorra e coloque as palhas para secar individualmente.
+                        </p>
+                        <p>
+                            Debulhe as espigas de milho com uma faca.
+                        </p>
+                        <p>
+                            Bata o milho, aos poucos, no liquidificador com o auxílio de uma espátula.
+                        </p>
+                        <p>
+                            Acrescente a água quando necessário. Aproximadamente meia xícara de chá de café.
+                        </p>
+                        <p>
+                            Quando formar um creme, despeje numa bacia
+                        </p>
+                        <p>
+                            Misture ao creme de milho o açúcar e o coco ralado
+                        </p>
+                        <p>
+                            Mexa bem até que fique homogêneo
+                        </p>
+                        <p>
+                            Coloque a massa dentro da palha de milho, fazendo pequenos travesseiros e amarre bem com barbante ou elástico
+                        </p>
+                        <p>
+                            Em uma panela grande coloque água para ferver.
+                        </p>
+                        <p>
+                            Quando a água estiver fervendo, coloque as pamonhas uma a uma. É importante que a água realmente esteja fervendo, caso contrário, as pamonhas irão se desmanchar.
+                        </p>
+                        <p>
+                            Cozinhe por aproximadamente de 50 minutos a 1 hora.
+                        </p>
+                        <p>
+                            Retire com uma escumadeira e sirva ainda quente ou fria.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button onclick="voltar('#tipicas')">Voltar</button>
+        </div>
+
+  </main>
+  <footer>
+      <div class="footer" id="contato">
+          <h5>Sabores do Mundo</h5>
+          <p> Todos os direitos reservados</p>
+          <p>contato@contato.com.br</p>
+      </div>
+  </footer>
 </body>
 </html>

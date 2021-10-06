@@ -38,7 +38,6 @@ header {
   background-color: rgba(255, 255, 255, 0.671);
   font-size: 18px;
   border-radius: 12px;
-  font-weight: 600;
   text-align: justify;
   padding: 10px;
 }
@@ -110,10 +109,6 @@ header {
     height: 300px;
   }
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 18c42b7a4ef7f6bb0ace7a67036586f8ec1b2bf0
 /*
  ************************************
  * begin brasileira.html
@@ -122,8 +117,13 @@ header {
   background-image: url("https://paribar.com.br/wp-content/uploads/2021/04/comida-brasileira.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.6;
+  opacity: 0.8;
   margin-top: 100px;
+}
+.brasileira #banner p {
+  background-color: #0000007a;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
 }
 .brasileira .thumbnail {
   width: 200px;
@@ -138,37 +138,67 @@ header {
   background-image: url("https://www.saboresajinomoto.com.br/uploads/images/recipes/pato-no-tucupi.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.6;
+  opacity: 0.8;
+}
+.brasileira #bannerNorte p {
+  background-color: #0000007a;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
 }
 .brasileira #bannerNordeste {
   background-image: url("https://www.saboresajinomoto.com.br/uploads/images/recipes/baiao-de-dois-l.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.6;
+  opacity: 0.8;
+}
+.brasileira #bannerNordeste p {
+  background-color: #0000007a;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
 }
 .brasileira #bannerCentroOeste {
   background-image: url("https://www.saboresajinomoto.com.br/uploads/images/recipes/galinhada-4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.6;
+  opacity: 0.8;
+}
+.brasileira #bannerCentroOeste p {
+  background-color: #0000007a;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
 }
 .brasileira #bannerSudeste {
   background-image: url("https://www.saboresajinomoto.com.br/uploads/images/recipes/feijoada-completa-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.6;
+  opacity: 0.8;
+}
+.brasileira #bannerSudeste p {
+  background-color: #0000007a;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
 }
 .brasileira #bannerSul {
   background-image: url("https://www.saboresajinomoto.com.br/uploads/images/recipes/arroz-de-carreteiro-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.6;
+  opacity: 0.8;
+}
+.brasileira #bannerSul p {
+  background-color: #0000007a;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
 }
 .brasileira #bannerTipicas {
   background-image: url("https://img.cybercook.com.br/receitas/490/pamonha-de-milho-verde-2.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.6;
+  opacity: 0.8;
+}
+.brasileira #bannerTipicas p {
+  background-color: #0000007a;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
 }
 .brasileira button {
   background-color: #d13a14;
@@ -195,84 +225,155 @@ header {
  ************************************
  * end brasileira.html
  */
-<<<<<<< HEAD
-
-=======
- 
 /*
  ************************************
- * begin francesa.html
+ * begin japonesa.html
  */
-.francesa #banner {
-  background-image: url("./images/Cheese.jpg");
+.japonesa #banner {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F2.bp.blogspot.com%2F-vKdCIu6Ffbo%2FUZ2KEY8VALI%2FAAAAAAAAAUQ%2FgEpzxWFSTy8%2Fs1600%2Fcomida%2Bjaponesa.jpg&f=1&nofb=1");
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 100px;
-  font-weight: 600;
-  opacity: 0.9;
+  opacity: 0.8;
 }
-
-.francesa #banner div{
-  color: #ecf011;
-  background-color: rgba(0, 0, 0, 0.164);
-  padding: 5px;
-  border-radius: 12px;
+.japonesa #banner p {
+  background-color: #0000007a;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
 }
-
-.francesa .thumbnail {
-  width: 300px;
-  height: 300px;
+.japonesa .thumbnail {
+  width: 200px;
+  height: 250px;
   object-fit: cover;
 }
-.francesa .hidden {
+.japonesa .hidden {
   display: none;
   margin-top: 100px;
 }
-.francesa #bannerEscargot {
-  background-image: url("./images/Escargot.jpg");
+.japonesa #bannerEscargot {
+  background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 100px;
+  opacity: 0.8;
 }
-.francesa #bannerVinhos {
-  background-image: url("./images/VinhosFranceses.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 100px;
+.japonesa #bannerEscargot p {
+  background-color: #0000007a;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
 }
-.francesa #bannerRatatouille {
-  background-image: url("./images/Ratatouille.jpg");
+.japonesa #bannerVinhos {
+  background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 100px;
+  opacity: 0.8;
 }
-.francesa #bannerQueijos {
-  background-image: url("./images/Queijos.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 100px;
-  
+.japonesa #bannerVinhos p {
+  background-color: #0000007a;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
 }
-.francesa #bannerMacarons {
-  background-image: url("./images/Macarons.jpg");
+.japonesa #bannerRatatouille {
+  background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 100px;
-  
+  opacity: 0.8;
 }
-.francesa #bannerPato {
-  background-image: url("./images/Pato.jpg");
+.japonesa #bannerRatatouille p {
+  background-color: #0000007a;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
+}
+.japonesa #bannerQueijos {
+  background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 100px;
-  
+  opacity: 0.8;
+}
+.japonesa #bannerQueijos p {
+  background-color: #0000007a;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
+}
+.japonesa #bannerMacarons {
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  opacity: 0.8;
+}
+.japonesa #bannerMacarons p {
+  background-color: #0000007a;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
+}
+.japonesa #bannerPato {
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  opacity: 0.8;
+}
+.japonesa #bannerPato p {
+  background-color: #0000007a;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
 }
 
+/************************************
+* end japonesa.html
+*/
 /*
+ ************************************
+ * begin francesa.html
+ * 
+
+.francesa{
+    @mixin comumBanner($url) {
+	    background-image: url($url);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 100px;
+        opacity: 0.6;
+
+    }
+    #banner {
+        @include comumBanner($url: '');
+    }
+    .thumbnail {
+        width: 200px;
+        height: 250px;
+        object-fit: cover;
+    }
+    .hidden {
+        display: none;
+        margin-top: 100px;
+    }
+    #bannerEscargot {
+        @include comumBanner($url: '');
+    }
+    #bannerVinhos {
+        @include comumBanner($url: '');
+    }
+    #bannerRatatouille {
+        @include comumBanner($url: '');
+    }
+    #bannerQueijos {
+        @include comumBanner($url: '');
+    }
+    #bannerMacarons {
+        @include comumBanner($url: '');
+    }
+    #bannerPato{
+        @include comumBanner($url: '');
+    }
+}
+
  ************************************
  * end francesa.html
  */
 
-/*# sourceMappingURL=style.css.map */
->>>>>>> 18c42b7a4ef7f6bb0ace7a67036586f8ec1b2bf0
 /*# sourceMappingURL=style.css.map */
