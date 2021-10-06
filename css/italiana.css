@@ -1,0 +1,17 @@
+.banner {
+  width: 100%;
+  height: 100%;
+}
+
+.artigo {
+  padding: 15px;
+}
+
+.artigo h1 {
+  text-align: center;
+}
+
+.artigo p {
+  text-align: justify;
+}
+/*# sourceMappingURL=italiana.css.map */

@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .banner {
   background-image: url("https://blog.frasershospitality.com/wp-content/uploads/2019/11/2000px-Turkish-Bfast.jpg");
   background-repeat: no-repeat;
@@ -12,6 +16,7 @@
 header {
   background-color: white;
   height: 20px;
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -29,7 +34,8 @@ header {
   right: 0;
   text-align: center;
 }
-.img-overlay P {
+
+.img-overlay p {
   margin: 10px 30px;
   background-color: rgba(255, 255, 255, 0.671);
   font-size: 18px;
@@ -38,50 +44,80 @@ header {
   text-align: justify;
   padding: 10px;
 }
+
 .img-overlay button {
   background-color: #d13a14;
   border: none;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
+
 .img-overlay button:hover {
   background-color: #f0ad11;
   color: black;
 }
 
 .img-overlay:before {
-  content: " ";
+  content: ' ';
   display: block;
   height: 50%;
 }
 
 .card-custom {
-  margin: 20px 0px;
+  margin: 40px 0px;
   height: 550px;
+  opacity: 0.7;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.card-custom:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  opacity: 1;
 }
 
 .button-custom {
   background-color: #d13a14 !important;
   border: none !important;
+  -webkit-transition: 0.5s !important;
   transition: 0.5s !important;
+  color: none !important;
 }
+
 .button-custom:hover {
   background-color: #f0ad11 !important;
   color: black !important;
 }
 
-@media (max-width: 400px) {
+.fundo {
+  background-color: rgba(0, 0, 0, 0.603);
+  margin-bottom: 20px;
+  padding-bottom: 5px !important;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+@media (max-width: 430px) {
   .img-overlay:before {
     height: 30%;
   }
-
   .img-overlay p {
     margin: 0;
   }
-
   .navbar-brand img {
-    height: 85px;
+    height: 100px;
+  }
+  .carousel-item img {
+    height: 300px;
   }
 }
+
 /*
  ************************************
  * begin brasileira.html
@@ -93,15 +129,19 @@ header {
   margin-top: 100px;
   opacity: 0.6;
 }
+
 .brasileira .thumbnail {
   width: 200px;
   height: 250px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
+
 .brasileira .hidden {
   display: none;
   margin-top: 100px;
 }
+
 .brasileira #bannerNorte {
   background-image: url("https://www.saboresajinomoto.com.br/uploads/images/recipes/pato-no-tucupi.jpg");
   background-repeat: no-repeat;
@@ -109,6 +149,7 @@ header {
   margin-top: 100px;
   opacity: 0.6;
 }
+
 .brasileira #bannerNordeste {
   background-image: url("https://www.saboresajinomoto.com.br/uploads/images/recipes/baiao-de-dois-l.jpg");
   background-repeat: no-repeat;
@@ -116,6 +157,7 @@ header {
   margin-top: 100px;
   opacity: 0.6;
 }
+
 .brasileira #bannerCentroOeste {
   background-image: url("https://www.saboresajinomoto.com.br/uploads/images/recipes/galinhada-4.jpg");
   background-repeat: no-repeat;
@@ -123,6 +165,7 @@ header {
   margin-top: 100px;
   opacity: 0.6;
 }
+
 .brasileira #bannerSudeste {
   background-image: url("https://www.saboresajinomoto.com.br/uploads/images/recipes/feijoada-completa-1.jpg");
   background-repeat: no-repeat;
@@ -130,6 +173,7 @@ header {
   margin-top: 100px;
   opacity: 0.6;
 }
+
 .brasileira #bannerSul {
   background-image: url("https://www.saboresajinomoto.com.br/uploads/images/recipes/arroz-de-carreteiro-1.jpg");
   background-repeat: no-repeat;
@@ -137,6 +181,7 @@ header {
   margin-top: 100px;
   opacity: 0.6;
 }
+
 .brasileira #bannerTipicas {
   background-image: url("https://img.cybercook.com.br/receitas/490/pamonha-de-milho-verde-2.jpeg");
   background-repeat: no-repeat;
@@ -224,4 +269,5 @@ header {
  * end francesa.html
  */
 
+/*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */

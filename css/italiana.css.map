@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAA;EACH,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACf;;AAED,AAAA,OAAO,CAAA;EACH,OAAO,EAAE,IAAI;CAGhB;;AAJD,AAEI,OAFG,CAEH,EAAE,CAAA;EAAC,UAAU,EAAE,MAAM;CAAG;;AAF5B,AAGI,OAHG,CAGH,CAAC,CAAA;EAAC,UAAU,EAAE,OAAO;CAAG",
+    "sources": [
+        "italiana.scss"
+    ],
+    "names": [],
+    "file": "italiana.css"
+}
