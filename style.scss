@@ -131,3 +131,53 @@ header{
  ************************************
  * end brasileira.html
  */
+
+ /*
+ ************************************
+ * begin francesa.html
+ 
+
+.francesa{
+    @mixin comumBanner($url) {
+	    background-image: url($url);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 100px;
+        opacity: 0.6;
+
+    }
+    #banner {
+        @include comumBanner($url: '');
+    }
+    .thumbnail {
+        width: 200px;
+        height: 250px;
+        object-fit: cover;
+    }
+    .hidden {
+        display: none;
+        margin-top: 100px;
+    }
+    #bannerEscargot {
+        @include comumBanner($url: '');
+    }
+    #bannerVinhos {
+        @include comumBanner($url: '');
+    }
+    #bannerRatatouille {
+        @include comumBanner($url: '');
+    }
+    #bannerQueijos {
+        @include comumBanner($url: '');
+    }
+    #bannerMacarons {
+        @include comumBanner($url: '');
+    }
+    #bannerPato{
+        @include comumBanner($url: '');
+    }
+}
+
+ ************************************
+ * end francesa.html
+ */
