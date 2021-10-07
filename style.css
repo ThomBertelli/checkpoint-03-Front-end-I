@@ -59,7 +59,7 @@ header {
 
 .card-custom {
   margin: 40px 0px;
-  height: 550px;
+  height: 590px;
   opacity: 0.7;
   transition: 0.5s;
 }
@@ -67,6 +67,8 @@ header {
   transform: scale(1.1);
   opacity: 1;
 }
+
+
 
 .button-custom {
   background-color: #d13a14 !important;
