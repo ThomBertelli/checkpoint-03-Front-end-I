@@ -89,7 +89,7 @@ header {
   background-color: black;
   color: white;
   text-align: center;
-  padding: 25px;
+  padding: 15px;
 }
 
 @media (max-width: 430px) {
