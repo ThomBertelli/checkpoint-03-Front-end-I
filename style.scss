@@ -229,8 +229,21 @@ header{
         display: none;
         margin-top: 100px;
     }
-
-
+    #banner1 {
+        @include comumBanner($url: 'https://escolaeducacao.com.br/wp-content/uploads/2019/03/asia-carrot-chopsticks-357756-1024x683.jpg');
+    }
+    #bannerSashimi{
+        @include comumBanner($url: 'https://escolaeducacao.com.br/wp-content/uploads/2019/03/chopsticks-close-up-cuisine-271715-1024x682.jpg');
+    }
+    #bannerUnagi {
+        @include comumBanner($url: 'https://escolaeducacao.com.br/wp-content/uploads/2019/03/28727202561_1d9586cbd8_k-1024x768.jpg');
+    }
+    #bannerYakitori{
+        @include comumBanner($url: 'https://escolaeducacao.com.br/wp-content/uploads/2019/03/Yakitori-foto-wikimedia-commons-1024x680.jpg');
+    }
+    #bannerLamen{
+        @include comumBanner($url: 'https://escolaeducacao.com.br/wp-content/uploads/2019/03/bowl-chicken-cuisine-884600-1024x683.jpg');
+    }
 }
 
  /************************************
