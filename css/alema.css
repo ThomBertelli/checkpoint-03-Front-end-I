@@ -51,6 +51,11 @@ header {
   height: 50%;
 }
 
+.card{
+  height: 550px;
+  text-align: justify;
+}
+
 .footer {
   background-color: black;
   color: white;
