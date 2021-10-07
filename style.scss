@@ -51,7 +51,7 @@ header{
         padding: 10px;
     }
 
-    button{
+    a {
         @include botaoComum();
     }
 }
@@ -243,6 +243,9 @@ header{
     }
     #bannerLamen{
         @include comumBanner($url: 'https://escolaeducacao.com.br/wp-content/uploads/2019/03/bowl-chicken-cuisine-884600-1024x683.jpg');
+    }
+    #bannerTakoyaki{
+        @include comumBanner($url: 'https://escolaeducacao.com.br/wp-content/uploads/2019/03/Takoyaki-foto-wikimedia-commons-1024x768.jpg');
     }
 }
 
