@@ -94,7 +94,7 @@ header{
     background-color: black;
     color: white;
     text-align: center;
-    padding: 25px;
+    padding: 15px;
 }
 
 
@@ -253,54 +253,39 @@ header{
  * end japonesa.html
  */
 
-
-
- /*
+/*
  ************************************
  * begin francesa.html
- * 
+ *
+*/
 
-.francesa{
-    @mixin comumBanner($url) {
-	    background-image: url($url);
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin-top: 100px;
-        opacity: 0.6;
+.francesa #bannerFR {
+    background-image: url("./images/destinations-france-banner-desktop-1920x600.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    margin-top: 100px;
+  }
+  
+  
+  
+  .francesa .card-img-top {
+    width: auto;
+    height: 300px;
+    padding: 30px;
+    object-fit: cover;
+  }
+  
+  .francesa .card-body h5, p{
+    padding: 10px;
+    font-size: 16px;
+    text-justify: justify;
+  
+  }
+  
+  /*
+   ************************************
+   * end francesa.html
+   */
 
-    }
-    #banner {
-        @include comumBanner($url: '');
-    }
-    .thumbnail {
-        width: 200px;
-        height: 250px;
-        object-fit: cover;
-    }
-    .hidden {
-        display: none;
-        margin-top: 100px;
-    }
-    #bannerEscargot {
-        @include comumBanner($url: '');
-    }
-    #bannerVinhos {
-        @include comumBanner($url: '');
-    }
-    #bannerRatatouille {
-        @include comumBanner($url: '');
-    }
-    #bannerQueijos {
-        @include comumBanner($url: '');
-    }
-    #bannerMacarons {
-        @include comumBanner($url: '');
-    }
-    #bannerPato{
-        @include comumBanner($url: '');
-    }
-}
-
- ************************************
- * end francesa.html
- */
+ 
