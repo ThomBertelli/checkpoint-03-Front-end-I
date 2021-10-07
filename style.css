@@ -41,12 +41,12 @@ header {
   text-align: justify;
   padding: 10px;
 }
-.img-overlay button {
+.img-overlay a {
   background-color: #d13a14;
   border: none;
   transition: 0.5s;
 }
-.img-overlay button:hover {
+.img-overlay a:hover {
   background-color: #f0ad11;
   color: black;
 }
@@ -327,6 +327,18 @@ header {
   opacity: 0.8;
 }
 .japonesa #bannerLamen p {
+  background-color: #0000007a;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
+}
+.japonesa #bannerTakoyaki {
+  background-image: url("https://escolaeducacao.com.br/wp-content/uploads/2019/03/Takoyaki-foto-wikimedia-commons-1024x768.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  opacity: 0.8;
+}
+.japonesa #bannerTakoyaki p {
   background-color: #0000007a;
   border-radius: 15px;
   padding: 5px 10px 5px 10px;
