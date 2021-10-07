@@ -352,7 +352,6 @@ header {
  * begin francesa.html
  *
 */
-
 .francesa #bannerFR {
   background-image: url("./images/destinations-france-banner-desktop-1920x600.jpg");
   background-repeat: no-repeat;
@@ -361,8 +360,6 @@ header {
   margin-top: 100px;
 }
 
-
-
 .francesa .card-img-top {
   width: auto;
   height: 300px;
@@ -370,11 +367,10 @@ header {
   object-fit: cover;
 }
 
-.francesa .card-body h5, p{
+.francesa .card-body h5, p {
   padding: 10px;
   font-size: 16px;
   text-justify: justify;
-
 }
 
 /*
